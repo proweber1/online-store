@@ -1,8 +1,4 @@
 spring:
-  datasource:
-    username: catalog
-    password: XWuiYdlj
-    url: jdbc:postgresql://localhost:5432/catalog
   jpa:
     hibernate:
       ddl-auto: create-drop
