@@ -1,0 +1,14 @@
+spring:
+  datasource:
+    username: catalog
+    password: XWuiYdlj
+    url: jdbc:postgresql://localhost:5432/catalog
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+  jackson:
+    serialization:
+      indent-output: true
